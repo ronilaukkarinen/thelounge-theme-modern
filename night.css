@@ -325,3 +325,18 @@ kbd {
     font-size: 18px;
   }
 }
+
+#context-menu,
+.textcomplete-menu {
+  background: var(--body-bg-color);
+}
+
+.context-menu-item,
+.textcomplete-item {
+  color: var(--body-color);
+}
+
+.context-menu-item:hover,
+.textcomplete-item:hover {
+  background: rgba(255, 255, 255, .11);
+}
