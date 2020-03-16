@@ -51,6 +51,12 @@
   font-size: 15px;
 }
 
+@media (max-width: 500px) {
+  .messages .msg {
+    font-size: 18px !important;
+  }
+}
+
 @media (min-width: 480px) {
   #chat .from {  
     padding-left: 20px;
@@ -238,7 +244,7 @@ body {
 }
 
 #form #nick {
-  background: #101010;
+  background: #182533;
   color: var(--body-color);
 }
 
@@ -263,7 +269,7 @@ kbd {
 
 /* Embeds */
 #chat .toggle-content {
-  background: #101010;
+  background: #182533;
   color: #f3f3f3;
 }
 
@@ -290,4 +296,16 @@ kbd {
 
 .window {
   box-shadow: none;
+}
+
+#chat .error,
+#chat .error .from,
+#chat .channel .highlight,
+#chat .channel .highlight .from,
+#chat .channel .highlight .text {
+  color: #f92772 !important;
+}
+
+#chat .chat-view[data-type=channel] .msg.highlight {
+    background: rgba(255,255,255,.080) !important;
 }
