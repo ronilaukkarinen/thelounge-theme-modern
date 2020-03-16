@@ -139,6 +139,11 @@
   color: var(--body-color-muted) !important;
 }
 
+#form #input {
+  max-height: 19px !important;
+  overflow: hidden !important;
+}
+
 .channel-list-item[data-type=channel]:before, .context-menu-chan:before {
   content: "\f233";
 }
@@ -308,4 +313,15 @@ kbd {
 
 #chat .chat-view[data-type=channel] .msg.highlight {
     background: rgba(255,255,255,.080) !important;
+}
+
+#chat .toggle-content .thumb {
+  min-height: 58px;
+}
+
+@media (max-width: 500px) {
+  #form #submit,
+  #form #upload {
+    font-size: 18px;
+  }
 }

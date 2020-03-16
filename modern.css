@@ -51,6 +51,14 @@
   font-size: 15px;
 }
 
+@media (max-width: 500px) {
+  .messages .msg,
+  textarea,
+  input {
+    font-size: 18px !important;
+  }
+}
+
 @media (min-width: 480px) {
   #chat .from {  
     padding-left: 20px;
@@ -161,4 +169,20 @@ body {
 #chat button.menu, #viewport .lt,
 #viewport .rt {
   margin-top: 4px;
+}
+
+#chat .toggle-content .thumb {
+  min-height: 58px;
+}
+
+@media (max-width: 500px) {
+  #form #submit,
+  #form #upload {
+    font-size: 18px;
+  }
+}
+
+#form #input {
+  max-height: 19px !important;
+  overflow: hidden !important;
 }
