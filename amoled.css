@@ -68,7 +68,7 @@
 
 :root {
     --body-color: rgba(238, 238, 238, .95);
-    --border-color: rgba(255, 255, 255, .11);
+    --border-color: rgba(255, 255, 255, .2);
     --body-color-muted: rgba(255, 255, 255, .4);
     --body-bg-color: #000;
     --button-color: #84ce88;
@@ -95,7 +95,7 @@
 }
 
 @media (max-width: 479px) {
-  #chat .msg {
+  #chat .msg[data-type="message"] {
     display: flex !important;
   }
 

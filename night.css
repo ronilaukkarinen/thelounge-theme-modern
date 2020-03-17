@@ -93,7 +93,7 @@
 }
 
 @media (max-width: 479px) {
-  #chat .msg {
+  #chat .msg[data-type="message"] {
     display: flex !important;
   }
 
