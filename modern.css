@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:400,400i,500,700&display=swap');
 
 #loading .window {
-	margin: 5px;
+  margin: 5px;
 }
 
 #viewport {
-	padding: 5px;
+  padding: 5px;
 }
 
 #viewport.menu-open {
-	padding-left: 0;
+  padding-left: 0;
 }
 
 .window {
-	border-radius: 5px;
-	box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
 }
 
 #chat .chat-view[data-type=channel] .msg.highlight {
@@ -22,22 +22,22 @@
 }
 
 @media (max-width: 768px) {
-	#loading .window {
-		margin: 0;
-	}
+  #loading .window {
+    margin: 0;
+  }
 
-	#viewport,
-	#viewport.menu-open {
-		padding: 0;
-	}
+  #viewport,
+  #viewport.menu-open {
+    padding: 0;
+  }
 
-	#footer .icon {
-		border-radius: 0;
-	}
+  #footer .icon {
+    border-radius: 0;
+  }
 
-	.window {
-		border-radius: 0;
-	}
+  .window {
+    border-radius: 0;
+  }
 }
 
 #chat .time {
@@ -198,4 +198,8 @@ body {
 #form #input {
   max-height: 19px !important;
   overflow: hidden !important;
+}
+
+::-webkit-scrollbar-thumb:vertical { 
+  background: rgba(0, 0, 0, .2);
 }
