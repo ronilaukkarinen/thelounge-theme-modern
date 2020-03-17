@@ -117,6 +117,7 @@
     padding: 2px 6px 2px 10px !important;
     overflow: hidden !important;
     text-align: left !important;
+    border-left: 1px solid var(--body-color-muted) !important;    
   }
 }
 
