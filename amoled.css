@@ -322,6 +322,10 @@ kbd {
 }
 
 @media (max-width: 500px) {
+  #chat .toggle-content .thumb {
+    min-height: 66px;
+  }
+
   #form #submit,
   #form #upload {
     font-size: 18px;
