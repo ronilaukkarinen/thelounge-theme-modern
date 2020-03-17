@@ -17,6 +17,10 @@
 	box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
 }
 
+#chat .chat-view[data-type=channel] .msg.highlight {
+  border-left: 0 !important;
+}
+
 @media (max-width: 768px) {
 	#loading .window {
 		margin: 0;
