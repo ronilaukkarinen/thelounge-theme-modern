@@ -319,7 +319,8 @@ kbd {
 }
 
 #chat .chat-view[data-type=channel] .msg.highlight {
-    background: rgba(255,255,255,.080) !important;
+  background: rgba(255,255,255,.080) !important;
+  border-color: rgba(255,255,255,.1) !important;
 }
 
 #chat .toggle-content .thumb {
