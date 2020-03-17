@@ -67,20 +67,20 @@
 }
 
 :root {
-    --body-color: #222;
-    --body-color-muted: #767676;
-    --body-bg-color: #13131a;
-    --button-color: #84ce88;
-    --button-text-color-hover: #fff;
-    --overlay-bg-color: rgba(0,0,0,0.5);
-    --link-color: #50a656;
-    --window-bg-color: #fff;
-    --window-heading-color: #6c797a;
-    --date-marker-color: rgba(0,107,59,0.5);
-    --unread-marker-color: rgba(231,76,60,0.5);
-    --highlight-bg-color: #c0c5ef52;
-    --highlight-border-color: #9093cc;
-    --upload-progressbar-color: var(--button-color);
+  --body-color: #222;
+  --body-color-muted: #767676;
+  --body-bg-color: #13131a;
+  --button-color: #84ce88;
+  --button-text-color-hover: #fff;
+  --overlay-bg-color: rgba(0,0,0,0.5);
+  --link-color: #50a656;
+  --window-bg-color: #fff;
+  --window-heading-color: #6c797a;
+  --date-marker-color: rgba(0,107,59,0.5);
+  --unread-marker-color: rgba(231,76,60,0.5);
+  --highlight-bg-color: #c0c5ef52;
+  --highlight-border-color: #9093cc;
+  --upload-progressbar-color: var(--button-color);
 }
 
 .channel-list-item.active,
@@ -94,6 +94,10 @@
 }
 
 @media (max-width: 479px) {
+  #chat .condensed-summary .from, #chat .condensed-summary .time {
+    display: block !important;
+  }
+  
   #chat .msg[data-type="message"] {
     display: flex !important;
   }
@@ -127,14 +131,14 @@
 }
 
 .channel-list-item:before {
-    width: 15px;
-    margin-right: 12px;
-    line-height: 18px;
+  width: 15px;
+  margin-right: 12px;
+  line-height: 18px;
 }
 
 #sidebar .empty,
 .channel-list-item {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 body {

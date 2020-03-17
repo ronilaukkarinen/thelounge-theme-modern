@@ -95,6 +95,10 @@
 }
 
 @media (max-width: 479px) {
+  #chat .condensed-summary .from, #chat .condensed-summary .time {
+    display: block !important;
+  }
+  
   #chat .msg[data-type="message"] {
     display: flex !important;
   }

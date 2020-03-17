@@ -65,21 +65,21 @@
 }
 
 :root {
-    --body-color: rgba(238, 238, 238, .95);
-    --border-color: rgba(255, 255, 255, .11);
-    --body-color-muted: rgba(255, 255, 255, .4);
-    --body-bg-color: #17212B;
-    --button-color: #84ce88;
-    --button-text-color-hover: #252a33;
-    --overlay-bg-color: rgba(0,0,0,0.5);
-    --link-color: #50a656;
-    --window-bg-color: #0e1621;
-    --window-heading-color: #6c797a;
-    --date-marker-color: rgba(0,107,59,0.5);
-    --unread-marker-color: rgba(231,76,60,0.5);
-    --highlight-bg-color: #c0c5ef52;
-    --highlight-border-color: #9093cc;
-    --upload-progressbar-color: var(--button-color);
+  --body-color: rgba(238, 238, 238, .95);
+  --border-color: rgba(255, 255, 255, .11);
+  --body-color-muted: rgba(255, 255, 255, .4);
+  --body-bg-color: #17212B;
+  --button-color: #84ce88;
+  --button-text-color-hover: #252a33;
+  --overlay-bg-color: rgba(0,0,0,0.5);
+  --link-color: #50a656;
+  --window-bg-color: #0e1621;
+  --window-heading-color: #6c797a;
+  --date-marker-color: rgba(0,107,59,0.5);
+  --unread-marker-color: rgba(231,76,60,0.5);
+  --highlight-bg-color: #c0c5ef52;
+  --highlight-border-color: #9093cc;
+  --upload-progressbar-color: var(--button-color);
 }
 
 .channel-list-item.active,
@@ -93,6 +93,10 @@
 }
 
 @media (max-width: 479px) {
+  #chat .condensed-summary .from, #chat .condensed-summary .time {
+    display: block !important;
+  }
+  
   #chat .msg[data-type="message"] {
     display: flex !important;
   }
@@ -150,14 +154,14 @@
 }
 
 .channel-list-item:before {
-    width: 15px;
-    margin-right: 12px;
-    line-height: 18px;
+  width: 15px;
+  margin-right: 12px;
+  line-height: 18px;
 }
 
 #sidebar .empty,
 .channel-list-item {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 body {
@@ -313,7 +317,7 @@ kbd {
 }
 
 #chat .chat-view[data-type=channel] .msg.highlight {
-    background: rgba(255,255,255,.080) !important;
+  background: rgba(255,255,255,.080) !important;
 }
 
 #chat .toggle-content .thumb {
