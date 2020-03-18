@@ -205,13 +205,19 @@ body {
 
 #chat .toggle-content .toggle-text {
   padding: 15px;
+  font-size: 15px;
 }
 
 @media (max-width: 500px) {
 
   #chat .toggle-content .thumb {
-    min-height: 66px;
-    max-height: 120px;
+    min-height: 0;
+    max-height: 54px;
+  }
+
+  #chat .toggle-content .toggle-text {
+    padding: 8px 10px;
+    font-size: 14px;
   }
 
   #form #submit,
