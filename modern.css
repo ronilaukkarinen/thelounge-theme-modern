@@ -77,7 +77,7 @@
   --button-color: #84ce88;
   --button-text-color-hover: #fff;
   --overlay-bg-color: rgba(0,0,0,0.5);
-  --link-color: #50a656;
+  --link-color: #364882;
   --window-bg-color: #fff;
   --window-heading-color: #6c797a;
   --date-marker-color: rgba(0,107,59,0.5);
@@ -204,7 +204,7 @@ body {
 }
 
 #chat .toggle-content .toggle-text {
-  padding: 15px;
+  padding: 11px 15px;
   font-size: 15px;
 }
 
