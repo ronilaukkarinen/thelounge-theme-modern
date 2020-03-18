@@ -52,7 +52,9 @@
 }
 
 @media (max-width: 500px) {
-  .messages .msg {
+  .messages .msg,
+  textarea,
+  input {
     font-size: 18px !important;
   }
 }
