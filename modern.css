@@ -59,7 +59,7 @@
   .messages .msg,
   textarea,
   input {
-    font-size: 18px !important;
+    font-size: 16px !important;
   }
 }
 
@@ -109,7 +109,7 @@
   #chat .time {
     width: 35px !important;
     white-space: nowrap;
-    overflow: hidden;
+    overflow: visible;
   }
 
   #chat .from {
@@ -134,15 +134,17 @@
   content: "\f233";
 }
 
-.channel-list-item:before {
-  width: 15px;
-  margin-right: 12px;
-  line-height: 18px;
-}
+@media (min-width: 770px) {
+  .channel-list-item:before {
+    width: 15px;
+    margin-right: 12px;
+    line-height: 18px;
+  }
 
-#sidebar .empty,
-.channel-list-item {
-  font-size: 16px;
+  #sidebar .empty,
+  .channel-list-item {
+    font-size: 16px;
+  }
 }
 
 body {
