@@ -225,11 +225,12 @@ body {
   }
 }
 
-#form #input {
-  max-height: 19px !important;
-  overflow: hidden !important;
-}
-
 ::-webkit-scrollbar-thumb:vertical { 
   background: rgba(0, 0, 0, .2);
+}
+
+#form #input {
+  max-height: 100% !important;
+  overflow-y: auto !important;
+  overflow-x: none !important;
 }
