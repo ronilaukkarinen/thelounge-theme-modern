@@ -146,11 +146,6 @@
   color: var(--body-color-muted) !important;
 }
 
-#form #input {
-  max-height: 19px !important;
-  overflow: hidden !important;
-}
-
 .channel-list-item[data-type=channel]:before, .context-menu-chan:before {
   content: "\f233";
 }
@@ -326,12 +321,40 @@ kbd {
 }
 
 #chat .toggle-content .thumb {
-  min-height: 58px;
+  min-height: 0;
+  max-height: 65px;
+  max-width: 120px;
+  min-width: 0;
+}
+
+#chat .toggle-content {
+  border-radius: 5px;
+  max-width: 100%;
+  overflow: hidden;
+  box-shadow: none;
+  align-items: center;
+  white-space: normal;
+}
+
+#chat .toggle-content.opened {
+  align-items: flex-start;
+}
+
+#chat .toggle-content .toggle-text {
+  padding: 11px 15px;
+  font-size: 15px;
 }
 
 @media (max-width: 500px) {
+
   #chat .toggle-content .thumb {
-    min-height: 66px;
+    min-height: 0;
+    max-height: 54px;
+  }
+
+  #chat .toggle-content .toggle-text {
+    padding: 8px 10px;
+    font-size: 14px;
   }
 
   #form #submit,
@@ -353,4 +376,10 @@ kbd {
 .context-menu-item:hover,
 .textcomplete-item:hover {
   background: rgba(255, 255, 255, .11);
+}
+
+#form #input {
+  max-height: 100% !important;
+  overflow-y: auto !important;
+  overflow-x: none !important;
 }
