@@ -57,6 +57,12 @@
 }
 
 @media (max-width: 500px) {
+  .messages .msg {
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 500px) {
   .messages .msg,
   textarea,
   input {
@@ -244,4 +250,15 @@ body {
 
 .textcomplete-item a:hover {
   color: var(--body-color) !important;
+}
+
+#chat .msg[data-type=condensed] .msg,
+#chat .msg {
+  padding-top: 0;
+  padding-bottom: 0;
+
+  @media (max-width: 479px) {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
