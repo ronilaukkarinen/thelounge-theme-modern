@@ -110,9 +110,13 @@
     display: block !important;
   }
   
-  #chat .msg,
-  #chat .msg[data-type="message"] {
-    display: flex !important;
+  #chat .msg:not(.closed):not([data-type=condensed]),
+  #chat .msg:not(.closed):not([data-type=condensed])[data-type="message"] {
+    display: flex;
+  }
+
+  #chat .msg.closed[data-type=condensed] .msg {
+    display: none !important;
   }
 
   #chat .time {
