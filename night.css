@@ -1,11 +1,37 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:400,400i,500,700&display=swap');
 
+/* Variables */
+:root {
+  --body-color: rgba(238, 238, 238, .95);
+  --border-color: rgba(255, 255, 255, .11);
+  --body-color-muted: rgba(255, 255, 255, .4);
+  --body-bg-color: #17212b;
+  --button-color: #84ce88;
+  --button-text-color-hover: #252a33;
+  --overlay-bg-color: rgba(0, 0, 0, 0.5);
+  --link-color: #5b8cca;
+  --window-bg-color: #0e1621;
+  --window-heading-color: #6c797a;
+  --date-marker-color: rgba(0, 107, 59, 0.5);
+  --unread-marker-color: rgba(231, 76, 60, 0.5);
+  --highlight-bg-color: #c0c5ef52;
+  --highlight-border-color: #9093cc;
+  --upload-progressbar-color: var(--button-color);
+  --font-size: 15px;
+}
+
+@media (max-width: 500px) {
+  :root {
+    --font-size: 15px;
+  }
+}
+
 #loading .window {
   margin: 5px;
 }
 
 #viewport {
-  padding: 5px;
+  padding: 0;
 }
 
 #viewport.menu-open {
@@ -13,7 +39,7 @@
 }
 
 .window {
-  border-radius: 5px;
+  border-radius: 0;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
 }
 
@@ -59,37 +85,16 @@
 }
 
 @media (min-width: 480px) {
-  #chat .from {  
+  #chat .from {
     padding-left: 20px;
     width: 144px;
   }
 }
 
-:root {
-  --body-color: rgba(238, 238, 238, .95);
-  --border-color: rgba(255, 255, 255, .11);
-  --body-color-muted: rgba(255, 255, 255, .4);
-  --body-bg-color: #17212B;
-  --button-color: #84ce88;
-  --button-text-color-hover: #252a33;
-  --overlay-bg-color: rgba(0,0,0,0.5);
-  --link-color: #5b8cca;
-  --window-bg-color: #0e1621;
-  --window-heading-color: #6c797a;
-  --date-marker-color: rgba(0,107,59,0.5);
-  --unread-marker-color: rgba(231,76,60,0.5);
-  --highlight-bg-color: #c0c5ef52;
-  --highlight-border-color: #9093cc;
-  --upload-progressbar-color: var(--button-color);
-  --mobile-font-size: 15px;
-}
-
-@media (max-width: 500px) {
-  .messages .msg,
-  textarea,
-  input {
-    font-size: var(--mobile-font-size) !important;
-  }
+.messages .msg,
+textarea,
+input {
+  font-size: var(--font-size) !important;
 }
 
 .channel-list-item.active,
@@ -103,10 +108,11 @@
 }
 
 @media (max-width: 479px) {
-  #chat .condensed-summary .from, #chat .condensed-summary .time {
+  #chat .condensed-summary .from,
+  #chat .condensed-summary .time {
     display: block !important;
   }
-  
+
   #chat .msg:not(.closed):not([data-type=condensed]),
   #chat .msg:not(.closed):not([data-type=condensed])[data-type="message"] {
     display: flex;
@@ -123,8 +129,8 @@
   }
 
   #chat .from {
-    -webkit-mask-image: linear-gradient(270deg,transparent, var(--window-bg-color) 10px) !important;
-    mask-image: linear-gradient(270deg,transparent, var(--window-bg-color) 10px) !important;
+    -webkit-mask-image: linear-gradient(270deg, transparent, var(--window-bg-color) 10px) !important;
+    mask-image: linear-gradient(270deg, transparent, var(--window-bg-color) 10px) !important;
     padding: 2px 10px 0 0 !important;
     flex: 0 0 auto;
     width: 75px !important;
@@ -136,7 +142,7 @@
     padding: 2px 6px 2px 10px !important;
     overflow: hidden !important;
     text-align: left !important;
-    border-left: 1px solid var(--body-color-muted) !important;    
+    border-left: 1px solid var(--body-color-muted) !important;
   }
 }
 
@@ -159,8 +165,9 @@
   color: var(--body-color-muted) !important;
 }
 
-.channel-list-item[data-type=channel]:before, .context-menu-chan:before {
-  content: "\f233";
+.channel-list-item[data-type=channel]:before,
+.context-menu-chan:before {
+  content: "\f086";
 }
 
 @media (min-width: 770px) {
@@ -177,7 +184,7 @@
 }
 
 body {
-  font: 16px 'Rubik',-apple-system,system-ui,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,Arial;
+  font: 16px 'Rubik', -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, Arial;
 }
 
 .jump-to-input {
@@ -205,43 +212,139 @@ body {
   color: #40407a;
 }
 
-#chat button.menu, #viewport .lt,
+#chat button.menu,
+#viewport .lt,
 #viewport .rt {
   margin-top: 4px;
 }
 
-#chat.colored-nicks .user.color-1 { color: #f7adf7; }
-#chat.colored-nicks .user.color-2 { color: #abf99f; }
-#chat.colored-nicks .user.color-3 { color: #86efdc; }
-#chat.colored-nicks .user.color-4 { color: #b76ee5; }
-#chat.colored-nicks .user.color-5 { color: #f9a4b3; }
-#chat.colored-nicks .user.color-6 { color: #f7999a; }
-#chat.colored-nicks .user.color-7 { color: #f497b9; }
-#chat.colored-nicks .user.color-8 { color: #f9a9d7; }
-#chat.colored-nicks .user.color-9 { color: #7fa2e2; }
-#chat.colored-nicks .user.color-10 { color: #a8b8ff; }
-#chat.colored-nicks .user.color-11 { color: #ad88fc; }
-#chat.colored-nicks .user.color-12 { color: #f4aead; }
-#chat.colored-nicks .user.color-13 { color: #fc71ab; }
-#chat.colored-nicks .user.color-14 { color: #ff72e0; }
-#chat.colored-nicks .user.color-15 { color: #8cb6ea; }
-#chat.colored-nicks .user.color-16 { color: #f9857c; }
-#chat.colored-nicks .user.color-17 { color: #ed9b82; }
-#chat.colored-nicks .user.color-18 { color: #8df484; }
-#chat.colored-nicks .user.color-19 { color: #ffcce3; }
-#chat.colored-nicks .user.color-20 { color: #efcc81; }
-#chat.colored-nicks .user.color-21 { color: #90a1ed; }
-#chat.colored-nicks .user.color-22 { color: #f4d484; }
-#chat.colored-nicks .user.color-23 { color: #97ea70; }
-#chat.colored-nicks .user.color-24 { color: #fcbbba; }
-#chat.colored-nicks .user.color-25 { color: #eef975; }
-#chat.colored-nicks .user.color-26 { color: #c7ff93; }
-#chat.colored-nicks .user.color-27 { color: #ffade1; }
-#chat.colored-nicks .user.color-28 { color: #98ecf2; }
-#chat.colored-nicks .user.color-29 { color: #7187f2; }
-#chat.colored-nicks .user.color-30 { color: #9676e2; }
-#chat.colored-nicks .user.color-31 { color: #f2a4eb; }
-#chat.colored-nicks .user.color-32 { color: #85f27d; }
+#chat.colored-nicks .user.color-1 {
+  color: #f7adf7;
+}
+
+#chat.colored-nicks .user.color-2 {
+  color: #abf99f;
+}
+
+#chat.colored-nicks .user.color-3 {
+  color: #86efdc;
+}
+
+#chat.colored-nicks .user.color-4 {
+  color: #b76ee5;
+}
+
+#chat.colored-nicks .user.color-5 {
+  color: #f9a4b3;
+}
+
+#chat.colored-nicks .user.color-6 {
+  color: #f7999a;
+}
+
+#chat.colored-nicks .user.color-7 {
+  color: #f497b9;
+}
+
+#chat.colored-nicks .user.color-8 {
+  color: #f9a9d7;
+}
+
+#chat.colored-nicks .user.color-9 {
+  color: #7fa2e2;
+}
+
+#chat.colored-nicks .user.color-10 {
+  color: #a8b8ff;
+}
+
+#chat.colored-nicks .user.color-11 {
+  color: #ad88fc;
+}
+
+#chat.colored-nicks .user.color-12 {
+  color: #f4aead;
+}
+
+#chat.colored-nicks .user.color-13 {
+  color: #fc71ab;
+}
+
+#chat.colored-nicks .user.color-14 {
+  color: #ff72e0;
+}
+
+#chat.colored-nicks .user.color-15 {
+  color: #8cb6ea;
+}
+
+#chat.colored-nicks .user.color-16 {
+  color: #f9857c;
+}
+
+#chat.colored-nicks .user.color-17 {
+  color: #ed9b82;
+}
+
+#chat.colored-nicks .user.color-18 {
+  color: #8df484;
+}
+
+#chat.colored-nicks .user.color-19 {
+  color: #ffcce3;
+}
+
+#chat.colored-nicks .user.color-20 {
+  color: #efcc81;
+}
+
+#chat.colored-nicks .user.color-21 {
+  color: #90a1ed;
+}
+
+#chat.colored-nicks .user.color-22 {
+  color: #f4d484;
+}
+
+#chat.colored-nicks .user.color-23 {
+  color: #97ea70;
+}
+
+#chat.colored-nicks .user.color-24 {
+  color: #fcbbba;
+}
+
+#chat.colored-nicks .user.color-25 {
+  color: #eef975;
+}
+
+#chat.colored-nicks .user.color-26 {
+  color: #c7ff93;
+}
+
+#chat.colored-nicks .user.color-27 {
+  color: #ffade1;
+}
+
+#chat.colored-nicks .user.color-28 {
+  color: #98ecf2;
+}
+
+#chat.colored-nicks .user.color-29 {
+  color: #7187f2;
+}
+
+#chat.colored-nicks .user.color-30 {
+  color: #9676e2;
+}
+
+#chat.colored-nicks .user.color-31 {
+  color: #f2a4eb;
+}
+
+#chat.colored-nicks .user.color-32 {
+  color: #85f27d;
+}
 
 #chat .unread-marker-text::before {
   background: var(--window-bg-color);
@@ -329,7 +432,7 @@ kbd {
 }
 
 #chat .chat-view[data-type=channel] .msg.highlight {
-  background: rgba(255,255,255,.080) !important;
+  background: rgba(255, 255, 255, .080) !important;
   border-left: 0 !important;
 }
 
@@ -359,7 +462,6 @@ kbd {
 }
 
 @media (max-width: 500px) {
-
   #chat .toggle-content .thumb {
     min-height: 0;
     max-height: 54px;
