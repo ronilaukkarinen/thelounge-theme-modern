@@ -149,6 +149,10 @@ input {
   }
 }
 
+#chat .content {
+  border-left: 1px solid #eee !important;
+}
+
 .channel-list-item[data-type=channel]:before,
 .context-menu-chan:before {
   content: "\f086";
