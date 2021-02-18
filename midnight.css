@@ -106,7 +106,7 @@ body {
   --time-color-hover: #42527e;
   --font-size: 15px;
   --font-size-msg: 15px;
-  --font-size-channel-list: 16px;
+  --font-size-channel-list: 15px;
   --font-weight-msg: 300;
   --font-weight-user: 500;
 }
@@ -127,7 +127,8 @@ body {
 @media (max-width: 500px) {
   :root {
     --font-size: 16px;
-    --font-size-msg: 15px;
+    --font-size-msg: 16px;
+    --font-size-channel-list: 16px;
   }
 }
 
@@ -314,6 +315,7 @@ input {
 }
 
 #sidebar {
+  width: 180px;
   border-right: 1px solid var(--border-color);
 }
 
@@ -328,6 +330,12 @@ input {
 #sidebar .empty,
 .channel-list-item {
   font-size: var(--font-size-channel-list);
+}
+
+@media (min-width: 600px) {
+  .channel-list-item {
+    padding: 6px 14px;
+  }
 }
 
 .jump-to-input {
@@ -582,7 +590,7 @@ kbd {
 
 #chat .chat-view[data-type=channel] .msg.highlight .content {
   color: var(--highlight-msg-color);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 --highlight-msg-color
