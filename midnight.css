@@ -47,13 +47,23 @@ Good, legible Google webfonts for IRC: Archivo, Exo 2, Fira Sans, Heebo, IBM Ple
 
 @font-face {
   font-family: 'Alliance No. 1';
-  font-weight: 400;
   src: url('fonts/allianceno1-regular.eot'); /* IE9 Compat Modes */
   src: url('fonts/allianceno1-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('fonts/allianceno1-regular.woff2') format('woff2'), /* Super Modern Browsers */
        url('fonts/allianceno1-regular.woff') format('woff'), /* Pretty Modern Browsers */
        url('fonts/allianceno1-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('fonts/allianceno1-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Alliance No. 1';
+  font-weight: 500;
+  src: url('fonts/allianceno1-medium.eot'); /* IE9 Compat Modes */
+  src: url('fonts/allianceno1-medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/allianceno1-medium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/allianceno1-medium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/allianceno1-medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/allianceno1-medium.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
@@ -88,15 +98,17 @@ body {
   --window-heading-color: #44475a;
   --date-marker-color: rgba(40, 42, 54, 0.5);
   --unread-marker-color: #ff79c6;
-  --highlight-bg-color: #44475a;
+  --highlight-bg-color: rgba(255, 255, 255, .080);
+  --highlight-msg-color: #fff;
   --highlight-border-color: #44475a;
   --upload-progressbar-color: #50fa7b;
   --time-color: #374468;
   --time-color-hover: #42527e;
   --font-size: 15px;
   --font-size-msg: 15px;
+  --font-size-channel-list: 16px;
   --font-weight-msg: 300;
-  --font-weight-user: 600;
+  --font-weight-user: 500;
 }
 
 .from .user {
@@ -115,7 +127,7 @@ body {
 @media (max-width: 500px) {
   :root {
     --font-size: 16px;
-    --font-size-msg: 14px;
+    --font-size-msg: 15px;
   }
 }
 
@@ -157,6 +169,7 @@ body {
 }
 
 #chat .time {
+  font-weight: 400;
   color: var(--time-color);
   opacity: 1;
   order: 8;
@@ -171,7 +184,13 @@ body {
 
 @media (min-width: 600px) {
   #chat .messages {
-    padding: 30px 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  #chat .messages .msg {
+    padding-left: 5px;
+    padding-right: 0;
   }
 }
 
@@ -304,11 +323,11 @@ input {
     margin-right: 12px;
     line-height: 18px;
   }
+}
 
-  #sidebar .empty,
-  .channel-list-item {
-    font-size: 16px;
-  }
+#sidebar .empty,
+.channel-list-item {
+  font-size: var(--font-size-channel-list);
 }
 
 .jump-to-input {
@@ -556,9 +575,17 @@ kbd {
 }
 
 #chat .chat-view[data-type=channel] .msg.highlight {
-  background: rgba(255, 255, 255, .080) !important;
+  background: var(--highlight-bg-color) !important;
   border-left: 0 !important;
 }
+
+
+#chat .chat-view[data-type=channel] .msg.highlight .content {
+  color: var(--highlight-msg-color);
+  font-weight: 700;
+}
+
+--highlight-msg-color
 
 #chat .toggle-content .thumb {
   min-height: 0;
