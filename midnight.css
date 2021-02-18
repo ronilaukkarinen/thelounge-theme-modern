@@ -108,6 +108,7 @@ body {
   --upload-progressbar-color: #50fa7b;
   --time-color: #374468;
   --time-color-hover: #42527e;
+  --channel-list-item-hover-background: rgba(255, 255, 255, .05);
   --font-size: 15px;
   --font-size-msg: 15px;
   --font-size-channel-list: 15px;
@@ -226,7 +227,7 @@ input {
 }
 
 .channel-list-item:hover {
-  background: #242136;
+  background: var(--channel-list-item-hover-background);
   transition: all .55s;
 }
 
