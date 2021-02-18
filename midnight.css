@@ -5,76 +5,48 @@ Good, legible Google webfonts for IRC: Archivo, Exo 2, Fira Sans, Heebo, IBM Ple
 @font-face {
   font-family: 'SF Mono';
   src: url('fonts/sfmono-regular.eot'); /* IE9 Compat Modes */
-  src: url('fonts/sfmono-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/sfmono-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/sfmono-regular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('fonts/sfmono-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('fonts/sfmono-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('fonts/sfmono-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */url('fonts/sfmono-regular.woff2') format('woff2'), /* Super Modern Browsers */url('fonts/sfmono-regular.woff') format('woff'), /* Pretty Modern Browsers */url('fonts/sfmono-regular.ttf')  format('truetype'), /* Safari, Android, iOS */url('fonts/sfmono-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
   font-family: 'SF Mono';
   font-weight: 700;
   src: url('fonts/sfmono-bold.eot'); /* IE9 Compat Modes */
-  src: url('fonts/sfmono-bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/sfmono-bold.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/sfmono-bold.woff') format('woff'), /* Pretty Modern Browsers */
-       url('fonts/sfmono-bold.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('fonts/sfmono-bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('fonts/sfmono-bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */url('fonts/sfmono-bold.woff2') format('woff2'), /* Super Modern Browsers */url('fonts/sfmono-bold.woff') format('woff'), /* Pretty Modern Browsers */url('fonts/sfmono-bold.ttf')  format('truetype'), /* Safari, Android, iOS */url('fonts/sfmono-bold.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
   font-family: 'SF Mono';
   font-weight: 300;
   src: url('fonts/sfmono-light.eot'); /* IE9 Compat Modes */
-  src: url('fonts/sfmono-light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/sfmono-light.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/sfmono-light.woff') format('woff'), /* Pretty Modern Browsers */
-       url('fonts/sfmono-light.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('fonts/sfmono-light.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('fonts/sfmono-light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */url('fonts/sfmono-light.woff2') format('woff2'), /* Super Modern Browsers */url('fonts/sfmono-light.woff') format('woff'), /* Pretty Modern Browsers */url('fonts/sfmono-light.ttf')  format('truetype'), /* Safari, Android, iOS */url('fonts/sfmono-light.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
   font-family: 'Alliance No. 1';
   font-weight: 300;
   src: url('fonts/allianceno1-light.eot'); /* IE9 Compat Modes */
-  src: url('fonts/allianceno1-light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/allianceno1-light.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/allianceno1-light.woff') format('woff'), /* Pretty Modern Browsers */
-       url('fonts/allianceno1-light.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('fonts/allianceno1-light.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('fonts/allianceno1-light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */url('fonts/allianceno1-light.woff2') format('woff2'), /* Super Modern Browsers */url('fonts/allianceno1-light.woff') format('woff'), /* Pretty Modern Browsers */url('fonts/allianceno1-light.ttf')  format('truetype'), /* Safari, Android, iOS */url('fonts/allianceno1-light.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
   font-family: 'Alliance No. 1';
   src: url('fonts/allianceno1-regular.eot'); /* IE9 Compat Modes */
-  src: url('fonts/allianceno1-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/allianceno1-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/allianceno1-regular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('fonts/allianceno1-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('fonts/allianceno1-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('fonts/allianceno1-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */url('fonts/allianceno1-regular.woff2') format('woff2'), /* Super Modern Browsers */url('fonts/allianceno1-regular.woff') format('woff'), /* Pretty Modern Browsers */url('fonts/allianceno1-regular.ttf')  format('truetype'), /* Safari, Android, iOS */url('fonts/allianceno1-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
   font-family: 'Alliance No. 1';
   font-weight: 500;
   src: url('fonts/allianceno1-medium.eot'); /* IE9 Compat Modes */
-  src: url('fonts/allianceno1-medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/allianceno1-medium.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/allianceno1-medium.woff') format('woff'), /* Pretty Modern Browsers */
-       url('fonts/allianceno1-medium.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('fonts/allianceno1-medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('fonts/allianceno1-medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */url('fonts/allianceno1-medium.woff2') format('woff2'), /* Super Modern Browsers */url('fonts/allianceno1-medium.woff') format('woff'), /* Pretty Modern Browsers */url('fonts/allianceno1-medium.ttf')  format('truetype'), /* Safari, Android, iOS */url('fonts/allianceno1-medium.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
   font-family: 'Alliance No. 1';
   font-weight: 600;
   src: url('fonts/allianceno1-semibold.eot'); /* IE9 Compat Modes */
-  src: url('fonts/allianceno1-semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/allianceno1-semibold.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/allianceno1-semibold.woff') format('woff'), /* Pretty Modern Browsers */
-       url('fonts/allianceno1-semibold.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('fonts/allianceno1-semibold.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('fonts/allianceno1-semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */url('fonts/allianceno1-semibold.woff2') format('woff2'), /* Super Modern Browsers */url('fonts/allianceno1-semibold.woff') format('woff'), /* Pretty Modern Browsers */url('fonts/allianceno1-semibold.ttf')  format('truetype'), /* Safari, Android, iOS */url('fonts/allianceno1-semibold.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 body {
@@ -96,13 +68,13 @@ body {
   --body-bg-color: #0b152b;
   --button-color: #50fa7b;
   --button-text-color-hover: #282a36;
-  --overlay-bg-color: rgba(0, 0, 0, 0.5);
+  --overlay-bg-color: rgba(0, 0, 0, .5);
   --link-color: #f8f8f2;
   --window-bg-color: #0d162d;
   --window-heading-color: #44475a;
-  --date-marker-color: rgba(40, 42, 54, 0.5);
+  --date-marker-color: rgba(40, 42, 54, .5);
   --unread-marker-color: #ff79c6;
-  --highlight-bg-color: rgba(255, 255, 255, .080);
+  --highlight-bg-color: rgba(255, 255, 255, .08);
   --highlight-msg-color: #fff;
   --highlight-border-color: #44475a;
   --upload-progressbar-color: #50fa7b;
@@ -152,7 +124,7 @@ body {
 
 .window {
   border-radius: 5px;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 25px rgba(0, 0, 0, .5);
 }
 
 @media (max-width: 768px) {
@@ -175,24 +147,18 @@ body {
 }
 
 #chat .time {
-  font-weight: 400;
   color: var(--time-color);
+  font-size: 14px;
+  font-weight: 400;
   opacity: 1;
   order: 8;
-  font-size: 14px;
   transition: all .55s;
 }
 
-#chat .time:hover {
+#chat .time:hover,
+#chat .time:focus {
   color: var(--time-color-hover);
   opacity: 1;
-}
-
-@media (min-width: 600px) {
-  #chat .messages .msg {
-    padding-left: 5px;
-    padding-right: 0;
-  }
 }
 
 .messages .msg {
@@ -226,13 +192,14 @@ input {
   background: transparent;
 }
 
-.channel-list-item:hover {
+.channel-list-item:hover,
+.channel-list-item:focus {
   background: var(--channel-list-item-hover-background);
   transition: all .55s;
 }
 
 #chat .msg.self {
-  /*background: var(--msg-self-bg-color);*/
+  /* background: var(--msg-self-bg-color); */
 }
 
 #chat .msg.self .content {
@@ -243,7 +210,7 @@ input {
   color: var(--msg-self-color) !important;
 }
 
-#chat .msg[data-type=action] .from:before,
+#chat .msg[data-type=action] .from::before,
 #chat .msg[data-type="action"],
 #chat .msg[data-type="action"] .content,
 #chat .msg[data-type="action"] span,
@@ -267,26 +234,26 @@ input {
   }
 
   #chat .time {
-    width: auto !important;
-    white-space: nowrap;
     overflow: visible;
+    white-space: nowrap;
+    width: auto !important;
   }
 
   #chat .from {
+    flex: 0 0 auto;
     -webkit-mask-image: linear-gradient(270deg, transparent, var(--window-bg-color) 10px) !important;
     mask-image: linear-gradient(270deg, transparent, var(--window-bg-color) 10px) !important;
     padding: 2px 10px 0 0 !important;
-    flex: 0 0 auto;
     width: 75px !important;
   }
 
   #chat .content {
+    border-left: 1px solid var(--body-color-muted) !important;
     flex: 1 1 auto !important;
     min-width: 0 !important;
-    padding: 2px 6px 2px 10px !important;
     overflow: hidden !important;
+    padding: 2px 6px 2px 10px !important;
     text-align: left !important;
-    border-left: 1px solid var(--body-color-muted) !important;
   }
 }
 
@@ -303,27 +270,27 @@ input {
   background: var(--window-bg-color);
 }
 
-#chat .count:before,
+#chat .count::before,
 #chat .userlist .search::placeholder,
 #form #input::placeholder {
   color: var(--body-color-muted) !important;
 }
 
-.channel-list-item[data-type=channel]:before,
-.context-menu-chan:before {
+.channel-list-item[data-type=channel]::before,
+.context-menu-chan::before {
   content: "\f086";
 }
 
 #sidebar {
-  width: 180px;
   border-right: 1px solid var(--border-color);
+  width: 180px;
 }
 
 @media (min-width: 770px) {
-  .channel-list-item:before {
-    width: 15px;
-    margin-right: 12px;
+  .channel-list-item::before {
     line-height: 18px;
+    margin-right: 12px;
+    width: 15px;
   }
 }
 
@@ -343,9 +310,9 @@ input {
 }
 
 .logo-container {
-  opacity: 0 !important;
   height: 0 !important;
   margin-top: -7px !important;
+  opacity: 0 !important;
 }
 
 .networks {
@@ -524,7 +491,8 @@ input {
   color: var(--body-color);
 }
 
-#form #submit:hover {
+#form #submit:hover,
+#form #submit:focus {
   opacity: 1;
 }
 
@@ -535,12 +503,12 @@ code,
 }
 
 kbd {
+  background-color: #333;
+  background-image: linear-gradient(rgba(0, 0, 0, .25), transparent);
+  border-color: var(--window-bg-color);
+  box-shadow: 0 2px 0 var(--window-bg-color), inset 0 1px 1px #777, inset 0 -1px 3px #222;
   color: #eee;
   text-shadow: 0 -1px 0 var(--window-bg-color);
-  border-color: var(--window-bg-color);
-  background-color: #333;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.25), transparent);
-  box-shadow: 0 2px 0 var(--window-bg-color), inset 0 1px 1px #777, inset 0 -1px 3px #222;
 }
 
 /* Embeds */
@@ -555,19 +523,19 @@ kbd {
 
 /* Form elements */
 
-#chat-container ::-moz-placeholder {
+#chat-container ::placeholder {
   color: #99a2b4;
-  opacity: 0.5;
+  opacity: .5;
 }
 
-#chat-container ::-webkit-input-placeholder {
+#chat-container ::input-placeholder {
   color: #99a2b4;
-  opacity: 0.5;
+  opacity: .5;
 }
 
-#chat-container :-ms-input-placeholder {
+#chat-container :input-placeholder {
   color: #99a2b4;
-  opacity: 0.5;
+  opacity: .5;
 }
 
 .window {
@@ -587,19 +555,18 @@ kbd {
   border-left: 0 !important;
 }
 
-
 #chat .chat-view[data-type=channel] .msg.highlight .content {
   color: var(--highlight-msg-color);
   font-weight: 600;
 }
 
 body #chat .toggle-content .thumb {
-  object-fit: cover;
-  width: 90px;
-  min-width: 90px;
   height: 100%;
   max-height: 100%;
   max-width: 100%;
+  min-width: 90px;
+  object-fit: cover;
+  width: 90px;
 }
 
 /* @media (max-width: 600px) {
@@ -610,14 +577,14 @@ body #chat .toggle-content .thumb {
 } */
 
 #chat .toggle-content {
+  align-items: center;
   border-radius: 5px;
+  box-shadow: none;
+  margin-bottom: 3px;
+  margin-top: 7px;
   max-width: 100%;
   overflow: hidden;
-  box-shadow: none;
-  align-items: center;
   white-space: normal;
-  margin-top: 7px;
-  margin-bottom: 3px;
 }
 
 #chat .toggle-content .toggle-thumbnail {
@@ -629,14 +596,14 @@ body #chat .toggle-content .thumb {
 }
 
 #chat .toggle-content .toggle-text {
-  padding: 11px 15px;
   font-size: 15px;
+  padding: 11px 15px;
 }
 
 @media (max-width: 500px) {
   #chat .toggle-content .toggle-text {
-    padding: 8px 10px;
     font-size: 14px;
+    padding: 8px 10px;
   }
 
   #form #submit,
@@ -656,21 +623,24 @@ body #chat .toggle-content .thumb {
 }
 
 .context-menu-item:hover,
-.textcomplete-item:hover {
+.textcomplete-item:hover,
+.context-menu-item:focus,
+.textcomplete-item:focus {
   background: rgba(255, 255, 255, .11);
 }
 
 #form #input {
   max-height: 19px !important;
-  overflow-y: auto !important;
   overflow-x: none !important;
+  overflow-y: auto !important;
 }
 
 .textcomplete-item a {
   color: var(--body-color-muted) !important;
 }
 
-.textcomplete-item a:hover {
+.textcomplete-item a:hover,
+.textcomplete-item a:focus {
   color: var(--body-color) !important;
 }
 
@@ -681,11 +651,11 @@ body #chat .toggle-content .thumb {
 
 #chat .msg[data-type=condensed] .msg,
 #chat .msg {
-  padding-top: 0;
   padding-bottom: 0;
+  padding-top: 0;
 }
 
-#chat .from:after,
+#chat .from::after,
 #chat .from::after {
   display: none !important;
 }
@@ -698,17 +668,17 @@ body #chat .toggle-content .thumb {
 
 /* General improvements moved from Custom stylesheet */
 #chat .userlist {
-	width: 150px;
+  width: 150px;
 }
 
 /* Disable highlighted words in between text */
 #chat .content span[class*="irc-"] {
-	color: inherit;
-	background-color: inherit;
-	font-weight: inherit;
-	font-style: inherit;
-	font-family: inherit;
-	text-decoration: inherit;
+  background-color: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  text-decoration: inherit;
 }
 
 /* Disable highlighted words in between text */
