@@ -79,9 +79,9 @@ Good, legible Google webfonts for IRC: Archivo, Exo 2, Fira Sans, Heebo, IBM Ple
 
 body {
   font: 14px 'Alliance No. 1', -apple-system, 'Roboto', 'Rubik', system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, Arial;
-  -moz-osx-font-smoothing: grayscale;
+  /* -moz-osx-font-smoothing: grayscale; */
   -webkit-font-smoothing: subpixel-antialiased;
-  text-rendering: geometricPrecision;
+  /* text-rendering: geometricPrecision; */
   text-size-adjust: none;
 }
 
@@ -620,6 +620,8 @@ body #chat .toggle-content .thumb {
   box-shadow: none;
   align-items: center;
   white-space: normal;
+  margin-top: 7px;
+  margin-bottom: 3px;
 }
 
 #chat .toggle-content .toggle-thumbnail {
