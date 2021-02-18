@@ -87,7 +87,7 @@ body {
 
 /* General vars */
 :root {
-  --body-color: rgba(248, 248, 242, .77);
+  --body-color: rgba(248, 248, 242, .85);
   --msg-self-color: #fff;
   --msg-self-bg-color: #1b1f27;
   --msg-action-color: #f1fa8c;
