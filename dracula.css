@@ -1,6 +1,5 @@
 /* Fonts
-
-Good, legible Google webfonts for IRC: Archivo, Exo 2, Fira Sans, Heebo, IBM Plex Sans, Noto Sans, Open Sans, Roboto, Rubik, Source Sans Pro, Titillium Web, Ubuntu
+This is a fork of https://github.com/dracula/thelounge because it doesn't contain open source fonts.
 */
 @font-face {
   font-family: 'SF Mono';
@@ -59,27 +58,27 @@ body {
 
 /* General vars */
 :root {
-  --body-color: rgba(255, 255, 255, .75);
-  --msg-self-color: rgb(236, 248, 255);
+  --body-color: rgba(248, 248, 242, .77);
+  --msg-self-color: #fff;
   --msg-self-bg-color: #1b1f27;
   --msg-action-color: #f1fa8c;
-  --border-color: #20283b;
+  --border-color: rgba(98, 114, 164, .14);
   --body-color-muted: #6272a4;
-  --body-bg-color: #0b152b;
+  --body-bg-color: #151320;
   --button-color: #50fa7b;
   --button-text-color-hover: #282a36;
-  --overlay-bg-color: rgba(0, 0, 0, .5);
+  --overlay-bg-color: rgba(0, 0, 0, 0.5);
   --link-color: #f8f8f2;
-  --window-bg-color: #0d162d;
+  --window-bg-color: #282a36;
   --window-heading-color: #44475a;
-  --date-marker-color: rgba(40, 42, 54, .5);
+  --date-marker-color: rgba(40, 42, 54, 0.5);
   --unread-marker-color: #ff79c6;
-  --highlight-bg-color: rgba(255, 255, 255, .08);
-  --highlight-msg-color: #fff;
-  --highlight-border-color: #44475a;
+  --highlight-bg-color: rgba(255, 255, 255, .04);
+  --highlight-border-color: rgba(255, 255, 255, .04);
   --upload-progressbar-color: #50fa7b;
-  --time-color: #374468;
-  --time-color-hover: #42527e;
+  --highlight-msg-color: #fff;
+  --time-color: rgba(255, 255, 255, .1);
+  --time-color-hover: rgba(255, 255, 255, .8);
   --channel-list-item-hover-background: rgba(255, 255, 255, .05);
   --font-size: 15px;
   --font-size-msg: 15px;

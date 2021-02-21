@@ -1,12 +1,60 @@
-/* Font
+/* Fonts
 
 Good, legible Google webfonts for IRC: Archivo, Exo 2, Fira Sans, Heebo, IBM Plex Sans, Noto Sans, Open Sans, Roboto, Rubik, Source Sans Pro, Titillium Web, Ubuntu
 */
-@import url('https://fonts.googleapis.com/css?family=Rubik:400,400i,500,700&display=swap');
+@font-face {
+  font-family: 'SF Mono';
+  src: url('fonts/sfmono-regular.eot'); /* IE9 Compat Modes */
+  src: url('fonts/sfmono-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */url('fonts/sfmono-regular.woff2') format('woff2'), /* Super Modern Browsers */url('fonts/sfmono-regular.woff') format('woff'), /* Pretty Modern Browsers */url('fonts/sfmono-regular.ttf')  format('truetype'), /* Safari, Android, iOS */url('fonts/sfmono-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
 
-/* Use system font by default (San Francisco on macOS) and Roboto as second */
+@font-face {
+  font-family: 'SF Mono';
+  font-weight: 700;
+  src: url('fonts/sfmono-bold.eot'); /* IE9 Compat Modes */
+  src: url('fonts/sfmono-bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */url('fonts/sfmono-bold.woff2') format('woff2'), /* Super Modern Browsers */url('fonts/sfmono-bold.woff') format('woff'), /* Pretty Modern Browsers */url('fonts/sfmono-bold.ttf')  format('truetype'), /* Safari, Android, iOS */url('fonts/sfmono-bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'SF Mono';
+  font-weight: 300;
+  src: url('fonts/sfmono-light.eot'); /* IE9 Compat Modes */
+  src: url('fonts/sfmono-light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */url('fonts/sfmono-light.woff2') format('woff2'), /* Super Modern Browsers */url('fonts/sfmono-light.woff') format('woff'), /* Pretty Modern Browsers */url('fonts/sfmono-light.ttf')  format('truetype'), /* Safari, Android, iOS */url('fonts/sfmono-light.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Alliance No. 1';
+  font-weight: 300;
+  src: url('fonts/allianceno1-light.eot'); /* IE9 Compat Modes */
+  src: url('fonts/allianceno1-light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */url('fonts/allianceno1-light.woff2') format('woff2'), /* Super Modern Browsers */url('fonts/allianceno1-light.woff') format('woff'), /* Pretty Modern Browsers */url('fonts/allianceno1-light.ttf')  format('truetype'), /* Safari, Android, iOS */url('fonts/allianceno1-light.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Alliance No. 1';
+  src: url('fonts/allianceno1-regular.eot'); /* IE9 Compat Modes */
+  src: url('fonts/allianceno1-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */url('fonts/allianceno1-regular.woff2') format('woff2'), /* Super Modern Browsers */url('fonts/allianceno1-regular.woff') format('woff'), /* Pretty Modern Browsers */url('fonts/allianceno1-regular.ttf')  format('truetype'), /* Safari, Android, iOS */url('fonts/allianceno1-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Alliance No. 1';
+  font-weight: 500;
+  src: url('fonts/allianceno1-medium.eot'); /* IE9 Compat Modes */
+  src: url('fonts/allianceno1-medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */url('fonts/allianceno1-medium.woff2') format('woff2'), /* Super Modern Browsers */url('fonts/allianceno1-medium.woff') format('woff'), /* Pretty Modern Browsers */url('fonts/allianceno1-medium.ttf')  format('truetype'), /* Safari, Android, iOS */url('fonts/allianceno1-medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Alliance No. 1';
+  font-weight: 600;
+  src: url('fonts/allianceno1-semibold.eot'); /* IE9 Compat Modes */
+  src: url('fonts/allianceno1-semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */url('fonts/allianceno1-semibold.woff2') format('woff2'), /* Super Modern Browsers */url('fonts/allianceno1-semibold.woff') format('woff'), /* Pretty Modern Browsers */url('fonts/allianceno1-semibold.ttf')  format('truetype'), /* Safari, Android, iOS */url('fonts/allianceno1-semibold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
 body {
-  font: 16px -apple-system, system-ui, 'Rubik', Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, Arial;
+  font: 14px 'Alliance No. 1', -apple-system, 'Roboto', 'Rubik', system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, Arial;
+  /* -moz-osx-font-smoothing: grayscale; */
+  -webkit-font-smoothing: subpixel-antialiased;
+  /* text-rendering: geometricPrecision; */
+  text-size-adjust: none;
 }
 
 /* Variables */
@@ -27,11 +75,30 @@ body {
   --highlight-border-color: #9093cc;
   --upload-progressbar-color: var(--button-color);
   --font-size: 15px;
+  --font-size-msg: 15px;
+  --font-size-channel-list: 15px;
+  --font-weight-msg: 300;
+  --font-weight-user: 500;
 }
 
+.from .user {
+  font-weight: var(--font-weight-user);
+}
+
+/* .from .user::before {
+  content: '<';
+}
+
+.from .user::after {
+  content: '>';
+} */
+
+/* Mobile vars */
 @media (max-width: 500px) {
   :root {
-    --font-size: 15px;
+    --font-size: 16px;
+    --font-size-msg: 16px;
+    --font-size-channel-list: 16px;
   }
 }
 
@@ -74,12 +141,39 @@ body {
 #chat .time {
   opacity: .4;
   order: 8;
+  font-weight: 300;
   font-size: 14px;
   transition: all .55s;
 }
 
 #chat .time:hover {
   opacity: .8;
+}
+
+.messages .msg {
+  font-size: var(--font-size-msg);
+  font-weight: var(--font-weight-msg);
+  line-height: 1.45;
+}
+
+@media (max-width: 500px) {
+  .messages .msg {
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 480px) {
+  #chat .from {
+    padding-left: 20px;
+    width: 144px;
+  }
+}
+
+/* Styles */
+.messages .msg,
+textarea,
+input {
+  font-size: var(--font-size-msg) !important;
 }
 
 .messages .msg {
