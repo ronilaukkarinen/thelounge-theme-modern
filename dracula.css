@@ -4,48 +4,48 @@ This is a fork of https://github.com/dracula/thelounge because it doesn't contai
 @font-face {
   font-family: 'SF Mono';
   src: url('fonts/sfmono-regular.eot'); /* IE9 Compat Modes */
-  src: url('fonts/sfmono-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */url('fonts/sfmono-regular.woff2') format('woff2'), /* Super Modern Browsers */url('fonts/sfmono-regular.woff') format('woff'), /* Pretty Modern Browsers */url('fonts/sfmono-regular.ttf')  format('truetype'), /* Safari, Android, iOS */url('fonts/sfmono-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('fonts/sfmono-regular.eot?#iefix') format('embedded-opentype'), url('fonts/sfmono-regular.woff2') format('woff2'), url('fonts/sfmono-regular.woff') format('woff'), url('fonts/sfmono-regular.ttf') format('truetype'), url('fonts/sfmono-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
   font-family: 'SF Mono';
   font-weight: 700;
   src: url('fonts/sfmono-bold.eot'); /* IE9 Compat Modes */
-  src: url('fonts/sfmono-bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */url('fonts/sfmono-bold.woff2') format('woff2'), /* Super Modern Browsers */url('fonts/sfmono-bold.woff') format('woff'), /* Pretty Modern Browsers */url('fonts/sfmono-bold.ttf')  format('truetype'), /* Safari, Android, iOS */url('fonts/sfmono-bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('fonts/sfmono-bold.eot?#iefix') format('embedded-opentype'), url('fonts/sfmono-bold.woff2') format('woff2'), url('fonts/sfmono-bold.woff') format('woff'), url('fonts/sfmono-bold.ttf') format('truetype'), url('fonts/sfmono-bold.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
   font-family: 'SF Mono';
   font-weight: 300;
   src: url('fonts/sfmono-light.eot'); /* IE9 Compat Modes */
-  src: url('fonts/sfmono-light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */url('fonts/sfmono-light.woff2') format('woff2'), /* Super Modern Browsers */url('fonts/sfmono-light.woff') format('woff'), /* Pretty Modern Browsers */url('fonts/sfmono-light.ttf')  format('truetype'), /* Safari, Android, iOS */url('fonts/sfmono-light.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('fonts/sfmono-light.eot?#iefix') format('embedded-opentype'), url('fonts/sfmono-light.woff2') format('woff2'), url('fonts/sfmono-light.woff') format('woff'), url('fonts/sfmono-light.ttf') format('truetype'), url('fonts/sfmono-light.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
   font-family: 'Alliance No. 1';
   font-weight: 300;
   src: url('fonts/allianceno1-light.eot'); /* IE9 Compat Modes */
-  src: url('fonts/allianceno1-light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */url('fonts/allianceno1-light.woff2') format('woff2'), /* Super Modern Browsers */url('fonts/allianceno1-light.woff') format('woff'), /* Pretty Modern Browsers */url('fonts/allianceno1-light.ttf')  format('truetype'), /* Safari, Android, iOS */url('fonts/allianceno1-light.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('fonts/allianceno1-light.eot?#iefix') format('embedded-opentype'), url('fonts/allianceno1-light.woff2') format('woff2'), url('fonts/allianceno1-light.woff') format('woff'), url('fonts/allianceno1-light.ttf') format('truetype'), url('fonts/allianceno1-light.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
   font-family: 'Alliance No. 1';
   src: url('fonts/allianceno1-regular.eot'); /* IE9 Compat Modes */
-  src: url('fonts/allianceno1-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */url('fonts/allianceno1-regular.woff2') format('woff2'), /* Super Modern Browsers */url('fonts/allianceno1-regular.woff') format('woff'), /* Pretty Modern Browsers */url('fonts/allianceno1-regular.ttf')  format('truetype'), /* Safari, Android, iOS */url('fonts/allianceno1-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('fonts/allianceno1-regular.eot?#iefix') format('embedded-opentype'), url('fonts/allianceno1-regular.woff2') format('woff2'), url('fonts/allianceno1-regular.woff') format('woff'), url('fonts/allianceno1-regular.ttf') format('truetype'), url('fonts/allianceno1-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
   font-family: 'Alliance No. 1';
   font-weight: 500;
   src: url('fonts/allianceno1-medium.eot'); /* IE9 Compat Modes */
-  src: url('fonts/allianceno1-medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */url('fonts/allianceno1-medium.woff2') format('woff2'), /* Super Modern Browsers */url('fonts/allianceno1-medium.woff') format('woff'), /* Pretty Modern Browsers */url('fonts/allianceno1-medium.ttf')  format('truetype'), /* Safari, Android, iOS */url('fonts/allianceno1-medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('fonts/allianceno1-medium.eot?#iefix') format('embedded-opentype'), url('fonts/allianceno1-medium.woff2') format('woff2'), url('fonts/allianceno1-medium.woff') format('woff'), url('fonts/allianceno1-medium.ttf') format('truetype'), url('fonts/allianceno1-medium.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
   font-family: 'Alliance No. 1';
   font-weight: 600;
   src: url('fonts/allianceno1-semibold.eot'); /* IE9 Compat Modes */
-  src: url('fonts/allianceno1-semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */url('fonts/allianceno1-semibold.woff2') format('woff2'), /* Super Modern Browsers */url('fonts/allianceno1-semibold.woff') format('woff'), /* Pretty Modern Browsers */url('fonts/allianceno1-semibold.ttf')  format('truetype'), /* Safari, Android, iOS */url('fonts/allianceno1-semibold.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('fonts/allianceno1-semibold.eot?#iefix') format('embedded-opentype'), url('fonts/allianceno1-semibold.woff2') format('woff2'), url('fonts/allianceno1-semibold.woff') format('woff'), url('fonts/allianceno1-semibold.ttf') format('truetype'), url('fonts/allianceno1-semibold.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 body {
@@ -89,6 +89,11 @@ body {
 
 .from .user {
   font-weight: var(--font-weight-user);
+}
+
+.channel-list-item .add-channel:before {
+  font-family: -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, Arial;
+  font-size: 19px;
 }
 
 /* .from .user::before {
