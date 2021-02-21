@@ -5,48 +5,62 @@ Good, legible Google webfonts for IRC: Archivo, Exo 2, Fira Sans, Heebo, IBM Ple
 @font-face {
   font-family: 'SF Mono';
   src: url('fonts/sfmono-regular.eot'); /* IE9 Compat Modes */
-  src: url('fonts/sfmono-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */url('fonts/sfmono-regular.woff2') format('woff2'), /* Super Modern Browsers */url('fonts/sfmono-regular.woff') format('woff'), /* Pretty Modern Browsers */url('fonts/sfmono-regular.ttf')  format('truetype'), /* Safari, Android, iOS */url('fonts/sfmono-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('fonts/sfmono-regular.eot?#iefix') format('embedded-opentype'), url('fonts/sfmono-regular.woff2') format('woff2'), url('fonts/sfmono-regular.woff') format('woff'), url('fonts/sfmono-regular.ttf') format('truetype'), url('fonts/sfmono-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
   font-family: 'SF Mono';
   font-weight: 700;
   src: url('fonts/sfmono-bold.eot'); /* IE9 Compat Modes */
-  src: url('fonts/sfmono-bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */url('fonts/sfmono-bold.woff2') format('woff2'), /* Super Modern Browsers */url('fonts/sfmono-bold.woff') format('woff'), /* Pretty Modern Browsers */url('fonts/sfmono-bold.ttf')  format('truetype'), /* Safari, Android, iOS */url('fonts/sfmono-bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('fonts/sfmono-bold.eot?#iefix') format('embedded-opentype'), url('fonts/sfmono-bold.woff2') format('woff2'), url('fonts/sfmono-bold.woff') format('woff'), url('fonts/sfmono-bold.ttf') format('truetype'), url('fonts/sfmono-bold.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
   font-family: 'SF Mono';
   font-weight: 300;
   src: url('fonts/sfmono-light.eot'); /* IE9 Compat Modes */
-  src: url('fonts/sfmono-light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */url('fonts/sfmono-light.woff2') format('woff2'), /* Super Modern Browsers */url('fonts/sfmono-light.woff') format('woff'), /* Pretty Modern Browsers */url('fonts/sfmono-light.ttf')  format('truetype'), /* Safari, Android, iOS */url('fonts/sfmono-light.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('fonts/sfmono-light.eot?#iefix') format('embedded-opentype'), url('fonts/sfmono-light.woff2') format('woff2'), url('fonts/sfmono-light.woff') format('woff'), url('fonts/sfmono-light.ttf') format('truetype'), url('fonts/sfmono-light.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
   font-family: 'Alliance No. 1';
   font-weight: 300;
   src: url('fonts/allianceno1-light.eot'); /* IE9 Compat Modes */
-  src: url('fonts/allianceno1-light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */url('fonts/allianceno1-light.woff2') format('woff2'), /* Super Modern Browsers */url('fonts/allianceno1-light.woff') format('woff'), /* Pretty Modern Browsers */url('fonts/allianceno1-light.ttf')  format('truetype'), /* Safari, Android, iOS */url('fonts/allianceno1-light.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('fonts/allianceno1-light.eot?#iefix') format('embedded-opentype'), url('fonts/allianceno1-light.woff2') format('woff2'), url('fonts/allianceno1-light.woff') format('woff'), url('fonts/allianceno1-light.ttf') format('truetype'), url('fonts/allianceno1-light.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
   font-family: 'Alliance No. 1';
   src: url('fonts/allianceno1-regular.eot'); /* IE9 Compat Modes */
-  src: url('fonts/allianceno1-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */url('fonts/allianceno1-regular.woff2') format('woff2'), /* Super Modern Browsers */url('fonts/allianceno1-regular.woff') format('woff'), /* Pretty Modern Browsers */url('fonts/allianceno1-regular.ttf')  format('truetype'), /* Safari, Android, iOS */url('fonts/allianceno1-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('fonts/allianceno1-regular.eot?#iefix') format('embedded-opentype'), url('fonts/allianceno1-regular.woff2') format('woff2'), url('fonts/allianceno1-regular.woff') format('woff'), url('fonts/allianceno1-regular.ttf') format('truetype'), url('fonts/allianceno1-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
   font-family: 'Alliance No. 1';
   font-weight: 500;
   src: url('fonts/allianceno1-medium.eot'); /* IE9 Compat Modes */
-  src: url('fonts/allianceno1-medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */url('fonts/allianceno1-medium.woff2') format('woff2'), /* Super Modern Browsers */url('fonts/allianceno1-medium.woff') format('woff'), /* Pretty Modern Browsers */url('fonts/allianceno1-medium.ttf')  format('truetype'), /* Safari, Android, iOS */url('fonts/allianceno1-medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('fonts/allianceno1-medium.eot?#iefix') format('embedded-opentype'), url('fonts/allianceno1-medium.woff2') format('woff2'), url('fonts/allianceno1-medium.woff') format('woff'), url('fonts/allianceno1-medium.ttf') format('truetype'), url('fonts/allianceno1-medium.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
   font-family: 'Alliance No. 1';
   font-weight: 600;
   src: url('fonts/allianceno1-semibold.eot'); /* IE9 Compat Modes */
-  src: url('fonts/allianceno1-semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */url('fonts/allianceno1-semibold.woff2') format('woff2'), /* Super Modern Browsers */url('fonts/allianceno1-semibold.woff') format('woff'), /* Pretty Modern Browsers */url('fonts/allianceno1-semibold.ttf')  format('truetype'), /* Safari, Android, iOS */url('fonts/allianceno1-semibold.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('fonts/allianceno1-semibold.eot?#iefix') format('embedded-opentype'), url('fonts/allianceno1-semibold.woff2') format('woff2'), url('fonts/allianceno1-semibold.woff') format('woff'), url('fonts/allianceno1-semibold.ttf') format('truetype'), url('fonts/allianceno1-semibold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Alliance No. 1';
+  font-weight: 700;
+  src: url('fonts/allianceno1-bold.eot'); /* IE9 Compat Modes */
+  src: url('fonts/allianceno1-bold.eot?#iefix') format('embedded-opentype'), url('fonts/allianceno1-bold.woff2') format('woff2'), url('fonts/allianceno1-bold.woff') format('woff'), url('fonts/allianceno1-bold.ttf') format('truetype'), url('fonts/allianceno1-bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Alliance No. 1';
+  font-weight: 800;
+  src: url('fonts/allianceno1-extrabold.eot'); /* IE9 Compat Modes */
+  src: url('fonts/allianceno1-extrabold.eot?#iefix') format('embedded-opentype'), url('fonts/allianceno1-extrabold.woff2') format('woff2'), url('fonts/allianceno1-extrabold.woff') format('woff'), url('fonts/allianceno1-extrabold.ttf') format('truetype'), url('fonts/allianceno1-extrabold.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 body {
@@ -684,4 +698,151 @@ body #chat .toggle-content .thumb {
 /* Disable highlighted words in between text */
 #chat.colored-nicks .content .user[data-name] {
   color: inherit !important;
+}
+
+/* chat.pulina.fi specific styles */
+#footer button.active,
+.channel-list-item.active {
+  background-color: var(--window-bg-color);
+}
+
+label[for="connect:nick"] {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+#connectform {
+  max-width: 620px;
+  width: 100%;
+}
+
+#connectform h2 {
+  color: transparent;
+  font-size: 0;
+}
+
+#connectform h2::after {
+  content: 'Valitse nimimerkki';
+  display: block;
+  visibility: visible;
+  background: linear-gradient(-70deg, #97c8f6, #20ffa7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  font-size: 62px;
+  font-weight: 700;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+@media (min-width: 1300px) and (max-width: 1350px) {
+  #connectform h2::after {
+    font-size: 62px;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1300px) {
+  #connectform h2::after {
+    font-size: 52px;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1100px) {
+  #connectform h2::after {
+    font-size: 42px;
+  }
+}
+
+@media (min-width: 670px) and (max-width: 760px) {
+  #connectform h2::after {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 670px) {
+  #connectform h2::after {
+    font-size: 32px;
+  }
+}
+
+#connectform {
+  margin-top: 4.2rem;
+}
+
+#connectform input.input,
+#connectform button {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 20px;
+  transition: all 22ms;
+  height: auto;
+}
+
+#connect .btn {
+  background: linear-gradient(-180deg, #34b859, #2ea44f);
+  border: 1px solid rgba(255, 255, 255, .05);
+  color: #fff;
+  transition: all 22ms;
+  font-size: 0;
+  border-radius: 4px;
+}
+
+#connect .btn::after {
+  content: '/join #pulina';
+  border-bottom-left-radius: 0;
+  border-left: 0;
+  border-top-left-radius: 0;
+  color: #fff;
+  transition: all 22ms;
+  font-size: 20px;
+  text-transform: lowercase;
+}
+
+#connectform input[name="nick"].input {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, .3);
+  color: #fff;
+  transition: all 22ms;
+  font-size: 22px !important;
+  line-height: 1;
+}
+
+#connectform input[name="nick"].input::placeholder {
+  color: rgba(255, 255, 255, .7);
+  opacity: 1;
+}
+
+#connectform input[name="nick"].input:hover,
+#connectform input[name="nick"].input:focus {
+  border-color: rgba(255, 255, 255, .4);
+}
+
+#connectform input[name="nick"].input:hover::placeholder,
+#connectform input[name="nick"].input:focus::placeholder {
+  color: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 760px) {
+  #connectform {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1200px) {
+  #connectform input[name="nick"].input,
+  #connect .btn::after {
+    font-size: 16px !important;
+  }
+}
+
+#sidebar .empty {
+  display: none;
 }
