@@ -708,7 +708,7 @@ body #chat .toggle-content .thumb {
   background-color: var(--window-bg-color);
 }
 
-label[for="connect:nick"] {
+.public label[for="connect:nick"] {
   border: 0;
   clip: rect(1px, 1px, 1px, 1px);
   clip-path: inset(50%);
@@ -720,17 +720,26 @@ label[for="connect:nick"] {
   width: 1px;
 }
 
-#connectform {
-  max-width: 620px;
-  width: 100%;
-}
-
-#connectform h2 {
+.public #connectform h2 {
   color: transparent;
   font-size: 0;
 }
 
-#connectform h2::after {
+body:not(.public) #connectform h2 {
+  display: block;
+  visibility: visible;
+  background: linear-gradient(-70deg, #97c8f6, #20ffa7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  font-size: 62px;
+  font-weight: 700;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.public #connectform h2::after {
   content: 'Valitse nimimerkki';
   display: block;
   visibility: visible;
@@ -746,31 +755,51 @@ label[for="connect:nick"] {
 }
 
 @media (min-width: 1300px) and (max-width: 1350px) {
-  #connectform h2::after {
+  body:not(.public) #connectform h2 {
+    font-size: 62px;
+  }
+  
+  .public #connectform h2::after {
     font-size: 62px;
   }
 }
 
 @media (min-width: 1100px) and (max-width: 1300px) {
-  #connectform h2::after {
+  body:not(.public) #connectform h2 {
+    font-size: 52px;
+  }
+  
+  .public #connectform h2::after {
     font-size: 52px;
   }
 }
 
 @media (min-width: 760px) and (max-width: 1100px) {
-  #connectform h2::after {
+  body:not(.public) #connectform h2 {
+    font-size: 42px;
+  }
+  
+  .public #connectform h2::after {
     font-size: 42px;
   }
 }
 
 @media (min-width: 670px) and (max-width: 760px) {
-  #connectform h2::after {
+  body:not(.public) #connectform h2 {
+    font-size: 42px;
+  }
+  
+  .public #connectform h2::after {
     font-size: 42px;
   }
 }
 
 @media (max-width: 670px) {
-  #connectform h2::after {
+  body:not(.public) #connectform h2 {
+    font-size: 32px;
+  }
+  
+  .public #connectform h2::after {
     font-size: 32px;
   }
 }
@@ -797,7 +826,7 @@ label[for="connect:nick"] {
   border-radius: 4px;
 }
 
-#connect .btn::after {
+.public #connect .btn::after {
   content: '/join #pulina';
   border-bottom-left-radius: 0;
   border-left: 0;
@@ -808,7 +837,7 @@ label[for="connect:nick"] {
   text-transform: lowercase;
 }
 
-#connectform input[name="nick"].input {
+#connectform input.input {
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, .3);
   color: #fff;
@@ -817,18 +846,18 @@ label[for="connect:nick"] {
   line-height: 1;
 }
 
-#connectform input[name="nick"].input::placeholder {
+#connectform input.input::placeholder {
   color: rgba(255, 255, 255, .7);
   opacity: 1;
 }
 
-#connectform input[name="nick"].input:hover,
-#connectform input[name="nick"].input:focus {
+#connectform input.input:hover,
+#connectform input.input:focus {
   border-color: rgba(255, 255, 255, .4);
 }
 
-#connectform input[name="nick"].input:hover::placeholder,
-#connectform input[name="nick"].input:focus::placeholder {
+#connectform input.input:hover::placeholder,
+#connectform input.input:focus::placeholder {
   color: rgba(255, 255, 255, 1);
 }
 
@@ -839,7 +868,7 @@ label[for="connect:nick"] {
 }
 
 @media (max-width: 1200px) {
-  #connectform input[name="nick"].input,
+  #connectform input.input,
   #connect .btn::after {
     font-size: 16px !important;
   }
