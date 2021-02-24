@@ -736,7 +736,7 @@ body:not(.public) #connectform h2 {
   font-size: 62px;
   font-weight: 700;
   -webkit-text-fill-color: transparent;
-  text-align: center;
+  text-align: left;
 }
 
 .public #connectform h2::after {
@@ -751,7 +751,7 @@ body:not(.public) #connectform h2 {
   font-size: 62px;
   font-weight: 700;
   -webkit-text-fill-color: transparent;
-  text-align: center;
+  text-align: left;
 }
 
 @media (min-width: 1300px) and (max-width: 1350px) {
