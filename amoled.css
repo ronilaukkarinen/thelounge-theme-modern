@@ -561,9 +561,12 @@ body #chat .toggle-content .thumb {
   white-space: normal;
 }
 
+#chat .toggle-content:not(.toggle-type-image) .toggle-thumbnail {
+  max-height: 68px;
+}
+
 #chat .toggle-content .toggle-thumbnail {
   height: 100%;
-  max-height: 68px;
 }
 
 #chat .toggle-content.opened {
