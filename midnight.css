@@ -106,7 +106,7 @@ body {
   font-weight: var(--font-weight-user);
 }
 
-.channel-list-item .add-channel:before {
+.channel-list-item .add-channel::before {
   font-family: -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, Arial;
   font-size: 19px;
 }
@@ -726,51 +726,51 @@ body #chat .toggle-content .thumb {
 }
 
 body:not(.public) #connectform h2 {
-  display: block;
-  visibility: visible;
   background: linear-gradient(-70deg, #97c8f6, #20ffa7);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
+  display: block;
   font-size: 62px;
   font-weight: 700;
-  -webkit-text-fill-color: transparent;
   text-align: left;
+  -webkit-text-fill-color: transparent;
+  visibility: visible;
 }
 
 .public #connectform h2::after {
-  content: 'Valitse nimimerkki';
-  display: block;
-  visibility: visible;
   background: linear-gradient(-70deg, #97c8f6, #20ffa7);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
-  font-size: 62px;
+  content: 'Valitse nimimerkki';
+  display: block;
+  font-size: 48px;
   font-weight: 700;
-  -webkit-text-fill-color: transparent;
   text-align: left;
+  -webkit-text-fill-color: transparent;
+  visibility: visible;
 }
 
 @media (min-width: 1300px) and (max-width: 1350px) {
   body:not(.public) #connectform h2 {
-    font-size: 62px;
+    font-size: 48px;
   }
-  
+
   .public #connectform h2::after {
-    font-size: 62px;
+    font-size: 48px;
   }
 }
 
 @media (min-width: 1100px) and (max-width: 1300px) {
   body:not(.public) #connectform h2 {
-    font-size: 52px;
+    font-size: 48px;
   }
-  
+
   .public #connectform h2::after {
-    font-size: 52px;
+    font-size: 48px;
   }
 }
 
@@ -778,7 +778,7 @@ body:not(.public) #connectform h2 {
   body:not(.public) #connectform h2 {
     font-size: 42px;
   }
-  
+
   .public #connectform h2::after {
     font-size: 42px;
   }
@@ -788,7 +788,7 @@ body:not(.public) #connectform h2 {
   body:not(.public) #connectform h2 {
     font-size: 42px;
   }
-  
+
   .public #connectform h2::after {
     font-size: 42px;
   }
@@ -798,7 +798,7 @@ body:not(.public) #connectform h2 {
   body:not(.public) #connectform h2 {
     font-size: 32px;
   }
-  
+
   .public #connectform h2::after {
     font-size: 32px;
   }
@@ -812,38 +812,41 @@ body:not(.public) #connectform h2 {
 #connectform button {
   font-size: 18px;
   font-weight: 600;
+  height: auto;
   padding: 15px 20px;
   transition: all 22ms;
-  height: auto;
 }
 
 #connect .btn {
   background: linear-gradient(-180deg, #34b859, #2ea44f);
   border: 1px solid rgba(255, 255, 255, .05);
+  border-radius: 4px;
   color: #fff;
   transition: all 22ms;
+}
+
+.public #connect .btn {
   font-size: 0;
-  border-radius: 4px;
 }
 
 .public #connect .btn::after {
-  content: '/join #pulina';
   border-bottom-left-radius: 0;
   border-left: 0;
   border-top-left-radius: 0;
   color: #fff;
-  transition: all 22ms;
+  content: '/join #pulina';
   font-size: 20px;
   text-transform: lowercase;
+  transition: all 22ms;
 }
 
 #connectform input.input {
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, .3);
   color: #fff;
-  transition: all 22ms;
   font-size: 22px !important;
   line-height: 1;
+  transition: all 22ms;
 }
 
 #connectform input.input::placeholder {
