@@ -2,6 +2,8 @@
 	Modern theme for The Lounge
 </h1>
 
+Please note, the midnight themes have been moved [here](https://github.com/pulinairc/thelounge-themes). The official dracula theme can be found [here](https://github.com/dracula/thelounge).
+
 <h3 align="center">
 	Modern Light theme
 </h3>
