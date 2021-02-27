@@ -1,3 +1,6 @@
+| :bangbang: | **This repository is no longer maintained. The theems still work, but will not receive any further updates. Included versions will become unsupported at some point. Consider my [pulinairc/thelounge-themes](https://github.com/pulinairc/pulinairc/thelounge-themes) or [dracula](https://github.com/dracula/thelounge) instead.**  |
+|:------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
 <h1 align="center">
 	Modern theme for The Lounge
 </h1>
